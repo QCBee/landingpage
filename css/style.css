@@ -1,0 +1,364 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  background: #ffffff;
+}
+
+/*Company profile block*/
+
+
+.company-profile {
+  width: 1520px;
+  height: 288px;
+  margin: 100px 0px 50px 0px;
+  background: #ffffff;
+}
+
+.company-profile-slogan h1 {
+  margin: 0px 340px 50px 340px;
+  color: #9db0d1;
+  font-size: 60px;
+  font-family: 'Arapey', serif;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: normal;
+
+}
+
+.company-profile-message {
+  margin: 0px 208px 50px 208px;
+  padding: 0px 70px 0px 70px;
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Verdana';
+  text-align: center;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.company-profile-button-aria{
+  margin: 0px 607px 50px 607px;
+}
+
+.company-profile-button-view {
+  padding: 24px 44px;
+  width: 267px;
+  height: 80px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ebac87;
+  font-family: 'Arapey', serif;
+  font-size: 32px;
+  text-align: center;
+  line-height: 32px;
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}
+
+/*Menu block*/
+.square-figure{
+  margin: 0px 15px 0px 0px;
+  background: #9db0d1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #9db0d1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.square-figure img {
+  width: 30px;
+  height: 25px;
+  align-self: center;
+
+}
+
+.option-line {
+  font-family: 'Verdana';
+  font-size: 20px;
+  text-align: left;
+  color: #000000;
+  line-height: normal;
+  letter-spacing: normal;
+
+}
+
+.option-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: baseline;
+
+}
+
+.option-block {
+  width: 1520px;
+  height: 160px;
+  background: #ffffff;
+  margin: 0px 0px 25px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 68px;
+
+}
+
+/*Navigation aria block*/
+.navigation-opening-section {
+  width: 1520px;
+  height: 400px;
+  background: url("../img/clouds.png") repeat-x top / auto 200px, linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  
+  
+}
+
+.navigation-opening-section h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+  font-family: 'Arapey', serif;
+  line-height: normal;
+  letter-spacing: normal;
+  padding: 252px 120px 104px 120px;
+
+}
+
+.count-mark {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(235, 172, 135, 0.4);
+  font-family: 'Verdana';
+  color: #ffffff;
+  text-align: left;
+  padding: 12px 20px;
+  font-size: 30px;
+  margin: 0px 0px 10px 0px;
+
+}
+
+.solution-picture {
+  background: #ebac87;
+  width: 310px;
+  height: 310px;
+  margin: 0px 0px 5px 0px;
+
+}
+
+.solution-picture img {
+  width: 310px;
+  height: 310px;
+
+}
+
+.solution-message {
+  font-family: 'Verdana';
+  font-size: 20px;
+  color: #000000;
+  text-align: left;
+  line-height: normal;
+  letter-spacing: normal;
+  margin: 20px 20px 20px 0px;
+
+}
+.solution-option {
+  width: 350px;
+  height: 560px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  margin: -50px 50px 75px 0px;
+  
+}
+
+.solution-section {
+  margin: 0px 120px 0px 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 45px;
+
+}
+
+.main-navigation-section{
+  width: 1520px;
+  height: 1047px;
+  background: url("../img/photo04.png") no-repeat bottom right 120px / 600px 475px, #87C6EB;
+}
+
+.important {
+  font-weight: bold;
+}
+
+.contact-point-section h2{
+  padding: 35px 720px 50px 120px;
+  font-family: 'Arapey', serif;
+  font-size: 40px;
+  text-align: left;
+  color: #ffffff;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.contact-point-section p{
+  padding: 0px 720px 50px 120px;
+  font-family: 'Verdana';
+  font-size: 20px;
+  text-align: left;
+  color: #000000;
+  line-height: normal;
+  letter-spacing: normal;
+
+}
+
+.link {
+  color: #000000;
+}
+
+/*Get info aria*/
+
+.get-info-button {
+  width: 220px;
+  height: 80px;
+  border-radius: 10px;
+  padding: 24px 50px;
+  border: none;
+  background-color: ffffff;
+  font-family: 'Arapey', serif;
+  font-size: 30px;
+  text-align: center;
+  line-height: 32px;
+  color: #ebac87;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.question-button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 3px 23px 4px 24px;
+  border: none;
+  background-color: #ebac87;
+  font-family: 'Verdana';
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.contact-button-section {
+  margin: 0px 120px 50px 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 980px;
+}
+
+
+
+.footer-section {
+  bottom: 0;
+  width: 1520px;
+  height: 180px;
+  background: #ffffff;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 830px;
+}
+
+.main-footer-button{
+  margin: 50px 0px 50px 120px;
+  padding: 24px 50px 24px 50px;
+  width: 267px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #ebac87;
+  border: none;
+  font-size: 30px;
+  line-height: 32px;
+  font-family: 'Arapey', serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #ffffff;
+
+}
+
+
+.social-media-icon img {
+  width: 60px;
+  height: 60px;
+  
+}
+
+.social-media-icons-section{
+  margin: 60px 120px 60px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
